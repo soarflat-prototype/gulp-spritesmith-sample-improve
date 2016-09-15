@@ -1,4 +1,5 @@
 @import "./sprite/_sample";
+@import "./sprite/_sample2";
 
 div {
   display: inline-block;
@@ -14,4 +15,16 @@ div {
 
 .icon3 {
   @include sprite($sprite-sample-icon3);
+}
+
+.icon2-1 {
+  @include sprite($sprite-sample2-icon1);
+}
+
+.icon2-2 {
+  @include sprite($sprite-sample2-icon2);
+}
+
+.icon2-3 {
+  @include sprite($sprite-sample2-icon3);
 }
