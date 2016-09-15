@@ -1,0 +1,17 @@
+@import "./sprite/_sample";
+
+div {
+  display: inline-block;
+}
+
+.icon1 {
+  @include sprite($sprite-sample-icon1);
+}
+
+.icon2 {
+  @include sprite($sprite-sample-icon2);
+}
+
+.icon3 {
+  @include sprite($sprite-sample-icon3);
+}

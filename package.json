@@ -1,0 +1,11 @@
+{
+  "name": "sprite",
+  "version": "0.0.0",
+  "scripts": {},
+  "author": "soarflat",
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "gulp-sass": "^2.3.2",
+    "gulp.spritesmith": "^6.2.1"
+  }
+}
