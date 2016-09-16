@@ -5,26 +5,26 @@ div {
   display: inline-block;
 }
 
-.icon1 {
+.people-icon1 {
   @include sprite($sprite-sample-icon1);
 }
 
-.icon2 {
+.people-icon2 {
   @include sprite($sprite-sample-icon2);
 }
 
-.icon3 {
+.people-icon3 {
   @include sprite($sprite-sample-icon3);
 }
 
-.icon2-1 {
+.food-icon1 {
   @include sprite($sprite-sample2-icon1);
 }
 
-.icon2-2 {
+.food-icon2 {
   @include sprite($sprite-sample2-icon2);
 }
 
-.icon2-3 {
+.food-icon3 {
   @include sprite($sprite-sample2-icon3);
 }

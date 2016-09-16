@@ -92,42 +92,42 @@ div {
   display: inline-block;
 }
 
-.icon1 {
+.people-icon1 {
   background-image: url(/image/sprite/sample.png);
   background-position: 0px 0px;
   width: 400px;
   height: 400px;
 }
 
-.icon2 {
+.people-icon2 {
   background-image: url(/image/sprite/sample.png);
   background-position: -400px 0px;
   width: 400px;
   height: 400px;
 }
 
-.icon3 {
+.people-icon3 {
   background-image: url(/image/sprite/sample.png);
   background-position: 0px -400px;
   width: 400px;
   height: 400px;
 }
 
-.icon2-1 {
+.food-icon1 {
   background-image: url(/image/sprite/sample2.png);
   background-position: 0px 0px;
   width: 400px;
   height: 400px;
 }
 
-.icon2-2 {
+.food-icon2 {
   background-image: url(/image/sprite/sample2.png);
   background-position: -400px 0px;
   width: 400px;
   height: 400px;
 }
 
-.icon2-3 {
+.food-icon3 {
   background-image: url(/image/sprite/sample2.png);
   background-position: 0px -400px;
   width: 400px;
