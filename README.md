@@ -1,5 +1,5 @@
 # gulp-spritesmith-sample-improve
-スプライト画像をディレクトリ毎に生成できるgulpタスクのサンプルです。
+スプライト画像をディレクトリ毎に生成するgulpタスクのサンプルです。
 
 # ディレクトリ構成
 ```
@@ -21,6 +21,7 @@
 │           ├── icon2.png
 │           └── icon3.png
 ├── gulpfile.js
+├── config.js
 ├── node_modules
 ├── package.json
 └── pub
@@ -31,4 +32,21 @@
     │       ├── sample.png
     │       └── sample2.png
     └── index.html
+```
+
+# config.js
+生成したスプライト画像の保存先などは`config.js`上で指定することができます。
+
+```
+module.exports = {
+  sass: {
+    devPath: './dev/scss/**/*.scss',
+    pubPath: './pub/css'
+  },
+  sprite: {
+    imagePath: './dev/sprite/',
+    outputSpritePath: './pub/image/sprite/',
+    outputScssPath: './dev/scss/sprite/'
+  }
+};
 ```
